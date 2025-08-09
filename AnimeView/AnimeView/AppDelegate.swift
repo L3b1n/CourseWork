@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    window?.rootViewController = UpscalingViewController()
+    window?.rootViewController = AnimeViewController()
     window?.makeKeyAndVisible()
     return true
   }
